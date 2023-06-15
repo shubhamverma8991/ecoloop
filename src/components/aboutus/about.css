@@ -16,8 +16,16 @@ span {
   color: #84b342;
   font-weight: 600;
 }
+.strong {
+  font-weight: bolder;
+  color: #84b342;
+  font-weight: 900;
+}
 .innercontain {
   width: 60%;
+}
+h2 {
+  width: 50%;
 }
 .textcontainer {
   text-align: justify;
@@ -25,6 +33,7 @@ span {
 .flex {
   display: flex;
   flex-direction: row;
+  gap: 50px;
 }
 .img {
   width: 40%;
@@ -39,4 +48,7 @@ img {
   -moz-transform: var(--transition);
   -ms-transform: var(--transition);
   -o-transform: var(--transition);
+}
+p {
+  font-weight: 500;
 }
