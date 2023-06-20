@@ -1,0 +1,15 @@
+.flex {
+  display: flex;
+  /* height: 100vh; */
+  height: 100%;
+}
+.col1 {
+  width: 15%;
+}
+.col2 {
+  width: 85%;
+  background-color: black;
+}
+h1 {
+  color: red;
+}

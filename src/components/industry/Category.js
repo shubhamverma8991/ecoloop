@@ -1,7 +1,7 @@
 import React from "react";
 import SidePannel from "../sidepannel/SidePannel";
 import { useParams } from "react-router-dom";
-import "./Category.css";
+import "../industry/Category.css";
 
 export default function Category() {
   const Type = window.location.href;
@@ -15,8 +15,12 @@ export default function Category() {
   }
   return (
     <div>
-      {path.toUpperCase()}
-      <SidePannel path={path} />
+      <div className="flex">
+        <div className="col1">
+          <SidePannel path={path} />
+        </div>
+        <div className="col2"></div>
+      </div>
     </div>
   );
 }
