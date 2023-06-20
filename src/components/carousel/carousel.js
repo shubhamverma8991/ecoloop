@@ -11,19 +11,19 @@ export default function carousel() {
     <div>
       <div id="carouselExampleAutoplaying" className="carousel slide" data-bs-ride="carousel">
         <div className="carousel-inner">
-          <div className="carousel-item active" data-bs-interval="2000">
+          <div className="carousel-item active" data-bs-interval="5000">
             <img src={one} className="d-block w-100 customimg" alt="..." />
           </div>
-          <div className="carousel-item" data-bs-interval="2000">
+          <div className="carousel-item" data-bs-interval="5000">
             <img src={two} className="d-block w-100 customimg" alt="..." />
           </div>
-          <div className="carousel-item" data-bs-interval="2000">
+          <div className="carousel-item" data-bs-interval="5000">
             <img src={three} className="d-block w-100 customimg" alt="..." />
           </div>
-          <div className="carousel-item" data-bs-interval="2000">
+          <div className="carousel-item" data-bs-interval="5000">
             <img src={four} className="d-block w-100 customimg" alt="..." />
           </div>{" "}
-          <div className="carousel-item" data-bs-interval="2000">
+          <div className="carousel-item" data-bs-interval="5000">
             <img src={five} className="d-block w-100 customimg" alt="..." />
           </div>
         </div>
